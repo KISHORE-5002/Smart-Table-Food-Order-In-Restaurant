@@ -1,0 +1,45 @@
+import React from 'react';
+import '../App.css';
+
+const About = () => {
+  return (
+    <div className="about-page">
+      <section className="about-hero">
+        <h1>About SmartTable</h1>
+      </section>
+
+      <section className="about-content">
+        <div className="container">
+          <h2>Our Story</h2>
+          <p>
+            Founded in 2023, SmartTable was born out of a desire to revolutionize the dining experience.
+            We combine exceptional cuisine with cutting-edge technology to create a seamless and enjoyable
+            experience for our customers.
+          </p>
+
+          <h2>Our Mission</h2>
+          <p>
+            To provide delicious, high-quality food while leveraging technology to make the ordering
+            process faster, more convenient, and more enjoyable for our customers.
+          </p>
+
+          <h2>Our Team</h2>
+          <div className="team-grid">
+            <div className="team-member">
+              <img src="https://via.placeholder.com/200x200?text=Chef" alt="Head Chef" />
+              <h3>John Smith</h3>
+              <p>Head Chef</p>
+            </div>
+            <div className="team-member">
+              <img src="https://via.placeholder.com/200x200?text=Manager" alt="Restaurant Manager" />
+              <h3>Sarah Johnson</h3>
+              <p>Restaurant Manager</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+  );
+};
+
+export default About;
