@@ -14,18 +14,23 @@ const Footer = () => {
           <h4>Quick Links</h4>
           <ul>
             <li><Link to="/">Home</Link></li>
-            <li><Link to="/menu">Menu</Link></li>
-            <li><Link to="/order-online">Order Online</Link></li>
-            <li><Link to="/reservation">Reservation</Link></li>
             <li><Link to="/about">About Us</Link></li>
             <li><Link to="/contact">Contact</Link></li>
           </ul>
         </div>
+        <div  className="footer-section">
+          <h4>Quick Links</h4>
+          <ul>
+            <li><Link to="/reservation">Reservation</Link></li>
+            <li><Link to="/menu">Menu</Link></li>
+            <li><Link to="/order-online">Order Online</Link></li>
+          </ul>
+        </div>
         <div className="footer-section">
           <h4>Contact Us</h4>
-          <p>123 Restaurant St, Foodville</p>
-          <p>Phone: (123) 456-7890</p>
-          <p>Email: info@smarttable.com</p>
+          <p>Hosur,Tamil Nadu</p>
+          <p> 91+ 7904183289</p>
+          <p> kishoresundar972@gmail.com</p>
         </div>
         <div className="footer-section">
           <h4>Follow Us</h4>

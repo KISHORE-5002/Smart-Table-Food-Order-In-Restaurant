@@ -33,9 +33,9 @@ const Contact = () => {
       <div className="contact-container">
         <div className="contact-info">
           <h2>Our Information</h2>
-          <p><strong>Address:</strong> 123 Restaurant St, Foodville, FC 12345</p>
-          <p><strong>Phone:</strong> (123) 456-7890</p>
-          <p><strong>Email:</strong> info@smarttable.com</p>
+          <p>Hosur,Tamil Nadu</p>
+          <p>91+ 7904183289</p>
+          <p>kishoresundar972@gmail.com</p>
           <p><strong>Opening Hours:</strong></p>
           <ul>
             <li>Monday - Friday: 11:00 AM - 10:00 PM</li>
