@@ -1161,11 +1161,9 @@ color:blue;
 /* Menu Page Styles */
 .menu-page {
   padding: 20px;
-  position: relative;
-  max-width: 1200px;
+    max-width: 1400px;
     margin: 0 auto;
-  
-    color: #333;
+
 }
 
 /* Header Styles */
@@ -1525,6 +1523,7 @@ color:blue;
 
   .menu-grid {
     grid-template-columns: 1fr;
+
   }
 
   .cart-buttons {
@@ -1556,7 +1555,11 @@ color:blue;
 .cart-item {
   animation: fadeIn 0.3s ease forwards;
 }
-
+.menu-page{
+margin-left:150px;
+margin-right:150px;
+margin-bottom:20px;
+}
 
 
 
