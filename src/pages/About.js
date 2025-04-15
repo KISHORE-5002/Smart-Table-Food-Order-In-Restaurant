@@ -27,12 +27,12 @@ const About = () => {
           <div className="team-grid">
             <div className="team-member">
               <img src="https://via.placeholder.com/200x200?text=Chef" alt="Head Chef" />
-              <h3>John Smith</h3>
+              <h3>Sachin Rao</h3>
               <p>Head Chef</p>
             </div>
             <div className="team-member">
               <img src="https://via.placeholder.com/200x200?text=Manager" alt="Restaurant Manager" />
-              <h3>Sarah Johnson</h3>
+              <h3>Srinivasan</h3>
               <p>Restaurant Manager</p>
             </div>
           </div>
